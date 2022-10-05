@@ -1,11 +1,7 @@
 # MechaCar_Statistical_Analysis
 
-## The objective of this project
+## Overview of the project
 In this project, we will be using R in order to design and interpret a multiple linear regression analysis, calculate summary statistics and t-tests, and provide an interpretation of the results. Finally, we will design your own statistical study to compare vehicle performance of two vehicles of the MechaCar vehicles against vehicles from other manufacturers.
-
-### Background
-
-A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
 ### Resources
 
@@ -89,4 +85,30 @@ Collect  summary statistics on the pounds per square inch (PSI) of the suspensio
 Run t-tests to determine if the manufacturing lots are statistically different  from the mean population
 
 ### Design a Study Comparing the MechaCar to the Competition
-Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you will write a summary interpretation of the findings
+
+The biggest impacts to MPG are AWD Capapility, weight and spoiler angle. These are the 3 variables to consider on the MPG f the MechaCar.
+
+#### What metric or metrics are you going to test?
+
+• MPG
+• Resale Value
+• Engine Type
+• Drive Package
+• Price
+• Safety Feature
+
+#### What is the null hypothesis or alternative hypothesis?
+
+###### Null Hypothesis (Ho)
+MechaCar is priced correctly based on its performance of key factors for its genre.
+
+###### Alternative Hypothesis (Ha)
+MechaCar is NOT priced correctly based on performance of key factors for its genre.
+
+#### What statistical test would you use to test the hypothesis? And why?
+
+A multiple linear regression can be used to determine the factors that have the highest correlation/predictability with the selling price and which combination has the greatest impact on the price.
+
+#### What data is needed to run the statistical test?
+
+A  random sample of n > 30 for MechaCar.
