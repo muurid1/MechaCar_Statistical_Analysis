@@ -91,10 +91,15 @@ The biggest impacts to MPG are AWD Capapility, weight and spoiler angle. These a
 #### What metric or metrics are you going to test?
 
 • MPG
+
 • Resale Value
+
 • Engine Type
+
 • Drive Package
+
 • Price
+
 • Safety Feature
 
 #### What is the null hypothesis or alternative hypothesis?
