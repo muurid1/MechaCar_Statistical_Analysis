@@ -1,17 +1,39 @@
 # MechaCar_Statistical_Analysis
 
-Demo of R and its statistical capabilities
+### The objective of this project
+In this project, we will be using R in order to design and interpret a multiple linear regression analysis, calculate summary statistics and t-tests, and provide an interpretation of the results. Finally, we will design your own statistical study to compare vehicle performance of two vehicles of the MechaCar vehicles against vehicles from other manufacturers.
 
-### The objective of this challenge is to use R in order to design and interpret a multiple linear regression analysis, calculate summary statistics and t-tests, and provide an interpretation of the results. Finally, you'll design your own statistical study to compare vehicle performance of two vehicles of the MechaCar vehicles against vehicles from other manufacturers.
 ## Background
 
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
+### Resources
+
+#### Software
+
+• VS Code
+
+• R
+
+• RStudio
+
+#### Data Source
+
+• [MechaCar_mgp.csv](https://github.com/muurid1/MechaCar_Statistical_Analysis/files/9712089/MechaCar_mgp.csv)
+
+• [Suspension_Coil.csv](https://github.com/muurid1/MechaCar_Statistical_Analysis/files/9712090/Suspension_Coil.csv)
+
+
+## Results
 
 ### Linear Regression to Predict MPG
   
 Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
 
-  ! [Mecha Car Linear Model Summary](./Images/Mecha_Car_Linear_Model_Summary.png)
+[Mecha Car Linear Model Summary]
+
+<img width="513" alt="Mecha_Car_Linear_Model_Summary" src="https://user-images.githubusercontent.com/107282754/193965005-4046458d-9237-4baf-be43-b0734dfea66f.png">
+
 
 ###### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -31,7 +53,10 @@ The multiple R-squared value is 0.71 (while the p-value remained significant (ve
 
 Collect  summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 
- ! [Coil PSI variance for all lots](./Images/Coil_PSI_variance_for_all_lots.png)
+[Coil PSI variance for all lots]
+
+<img width="378" alt="Coil_PSI_variance_for_all_lots" src="https://user-images.githubusercontent.com/107282754/193965071-a22da551-72f9-4067-8f6e-083db3160f99.png">
+
 
 ###### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -39,21 +64,27 @@ Collect  summary statistics on the pounds per square inch (PSI) of the suspensio
 
 2- By lots, Lots 1 and 2 are within specifications; however lot 3 has a variance that exceeds specifications.
 
-! [Coil PSI variance by lots](./Images/Coil_PSI_variance_by_lots.png)
+[Coil PSI variance by lots]
+
+<img width="497" alt="Coil_PSI_variance_by_lots" src="https://user-images.githubusercontent.com/107282754/193965102-5c3341e7-5167-4323-bc56-3b3fa4a7e9a3.png">
+
 
 ### T-Test on Suspension Coils
 
 <- Lot 1 is NOT signicantly different from the population mean (with a p-value of 1)
 
-! [Lot 1 t.test](./Images/Lot1_t.test.png)
+<img width="602" alt="Lot1_t test" src="https://user-images.githubusercontent.com/107282754/193965152-6fed3660-b5de-4128-9186-e4d54ab42dc5.png">
+
 
 <- Lot 2 is NOT signicantly different from the population mean (with a p-value of .6072)
 
-! [Lot 2 t.test](./Images/Lot2_t.test.png)
+<img width="549" alt="Lot2_t test" src="https://user-images.githubusercontent.com/107282754/193965183-1205b880-d80d-4b0c-9009-a1e0ccb91e53.png">
+
 
 <- Lot 3 is signicantly different from the population mean (with a p-value of .04168)
 
-! [Lot 3 t.test](./Images/Lot3_t.test.png)
+<img width="552" alt="Lot3_t test" src="https://user-images.githubusercontent.com/107282754/193965206-9dc8d5e9-3524-4333-8c96-326a56609a67.png">
+
 
 Run t-tests to determine if the manufacturing lots are statistically different  from the mean population
 
