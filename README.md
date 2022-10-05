@@ -99,10 +99,10 @@ The biggest impacts to MPG are AWD Capapility, weight and spoiler angle. These a
 
 #### What is the null hypothesis or alternative hypothesis?
 
-###### Null Hypothesis (Ho)
+##### Null Hypothesis (Ho)
 MechaCar is priced correctly based on its performance of key factors for its genre.
 
-###### Alternative Hypothesis (Ha)
+##### Alternative Hypothesis (Ha)
 MechaCar is NOT priced correctly based on performance of key factors for its genre.
 
 #### What statistical test would you use to test the hypothesis? And why?
