@@ -71,17 +71,17 @@ Collect  summary statistics on the pounds per square inch (PSI) of the suspensio
 
 ### T-Test on Suspension Coils
 
-* Lot 1 is NOT signicantly different from the population mean (with a p-value of 1)
+* ##### Lot 1 is NOT signicantly different from the population mean (with a p-value of 1)
 
 <img width="602" alt="Lot1_t test" src="https://user-images.githubusercontent.com/107282754/193965152-6fed3660-b5de-4128-9186-e4d54ab42dc5.png">
 
 
-* Lot 2 is NOT signicantly different from the population mean (with a p-value of .6072)
+* ##### Lot 2 is NOT signicantly different from the population mean (with a p-value of .6072)
 
 <img width="549" alt="Lot2_t test" src="https://user-images.githubusercontent.com/107282754/193965183-1205b880-d80d-4b0c-9009-a1e0ccb91e53.png">
 
 
-* Lot 3 is signicantly different from the population mean (with a p-value of .04168)
+* ##### Lot 3 is signicantly different from the population mean (with a p-value of .04168)
 
 <img width="552" alt="Lot3_t test" src="https://user-images.githubusercontent.com/107282754/193965206-9dc8d5e9-3524-4333-8c96-326a56609a67.png">
 
