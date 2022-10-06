@@ -116,4 +116,4 @@ A multiple linear regression can be used to determine the factors that have the 
 
 #### What data is needed to run the statistical test?
 
-A  random sample of n > 30 for MechaCar.
+In order to run the statistical test we will need to collect a random sample of n > 30 for MechaCar and their competitor.
